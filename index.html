@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <!--Website Tags-->
     <title>Website Title</title>
     <!--FontAwesome Tags-->
@@ -26,12 +27,15 @@
 
             </div>
             <nav>
-                <ul>
+                <ul class="nav-list">
                     <li>
                         <a href="#"><i class="far fa-address-card"></i>  Test 1</a>
                     </li>
-                    <li>
-                        <a href="#"><i class="far fa-folder-open"></i>  Test 2</a>
+                    <li> <a href="#"><i class="far fa-folder-open"></i>  Test 2</a>
+                        <ul class="nav-dropdown">
+                            <li> <a href="#">Test 2.1</a> </li>
+                            <li> <a href="#">Test 2.2</a> </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="#"><i class="far fa-chart-bar"></i>  Test 3</a>
@@ -44,27 +48,47 @@
     <section class="hero">
         <div class="hero-container">
             <div class="hero-items">
+                <h1>
+                    This is an H1!
+                </h1>
+                <p>
+                    This is going to be where a paragraph is. This is for testing purposes.
+                </p>
+            </div>
+        </div>
+    </section>
 
+    <section class="content">
+        <div class="content-container">
+            <div class="content-items">
+                <p>
+                    Test for the CONTENT section of the website. This is going to be where a paragraph is. This is for testing purposes.
+                </p>
             </div>
         </div>
     </section>
 
     <section class="footer">
-        <div class="footer-container">
-            <div class="footer-items">
-                <ul>
-                    <li>
-                        <a href="#">Test1</a>
-                    </li>
-                    <li>
-                        <a href="#">Test2</a>
-                    </li>
-                    <li>
-                        <a href="#">Test3</a>
-                    </li>
-                </ul>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-items">
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#"><i class="far fa-address-card"></i>  Test 1</a>
+                        </li>
+                        <li> <a href="#"><i class="far fa-folder-open"></i>  Test 2</a>
+                            <ul class="footer-dropdown">
+                                <li> <a href="#">Test 2.1</a> </li>
+                                <li> <a href="#">Test 2.2</a> </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="far fa-chart-bar"></i>  Test 3</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </footer>
     </section>
 </body>
 
